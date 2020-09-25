@@ -52,9 +52,9 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
-            this.tvTitle = itemView.findViewById(R.id.tvTitle);
-            this.tvOverview = itemView.findViewById(R.id.tvOverview);
-            this.ivPoster = itemView.findViewById(R.id.ivPoster);
+            tvTitle = itemView.findViewById(R.id.tvTitle);
+            tvOverview = itemView.findViewById(R.id.tvOverview);
+            ivPoster = itemView.findViewById(R.id.ivPoster);
         }
 
         public void bind(Movie movie) {
