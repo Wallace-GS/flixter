@@ -31,8 +31,6 @@ Flixter is an app that allows users to browse movies from the [The Movie Databas
 
 ### Notes
 
-Describe any challenges encountered while building the app.
-
 I'm having some trouble processing all the information since we are moving so fast and so I am opting out of doing the BONUS content in favor of completing Google Developer's Android Fundamentals CodeLabs to get a better understanding of what's going on. I will circle back around and complete the BONUS content soon for my own satisfaction.
 
 ### Open-source libraries used
