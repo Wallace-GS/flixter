@@ -11,6 +11,7 @@ import java.util.List;
 @Parcel
 public class Movie {
 
+    public static final int MAX_LEN = 160;
     int movieId;
     String backdropPath;
     String posterPath;
@@ -51,6 +52,15 @@ public class Movie {
     }
 
     public String getOverview() {
+        return overview;
+    }
+
+    public String getShortOverview() {
+        if (overview.length() >= MAX_LEN) {
+            int index = overview.indexOf(' ', MAX_LEN);
+            return overview.substring(0, index) + " ...";
+        }
+
         return overview;
     }
 

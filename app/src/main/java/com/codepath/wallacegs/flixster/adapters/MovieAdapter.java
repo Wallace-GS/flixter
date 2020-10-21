@@ -67,7 +67,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
 
         public void bind(final Movie movie) {
             tvTitle.setText(movie.getTitle());
-            tvOverview.setText((movie.getOverview()));
+            tvOverview.setText((movie.getShortOverview()));
             String imageUrl;
 
             if (context.getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE) {

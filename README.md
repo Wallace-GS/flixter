@@ -49,16 +49,12 @@ No difficulties as of right now (after finishing required stories).
   - [ ] (1pt) In landscape mode, the rotated alternate layout should use the backdrop image instead and show the title and movie overview to the right of it.
 
 - [ ] (2pts) Display a nice default [placeholder graphic](https://guides.codepath.org/android/Displaying-Images-with-the-Glide-Library#advanced-usage) for each image during loading
-- [ ] (2pts) Improved the user interface by experimenting with styling and coloring.
+- [x] (2pts) Improved the user interface by experimenting with styling and coloring.
 - [ ] (2pts) For popular movies (i.e. a movie voted for more than 5 stars), the full backdrop image is displayed. Otherwise, a poster image, the movie title, and overview is listed. Use Heterogenous RecyclerViews and use different ViewHolder layout files for popular movies and less popular ones.
 
 ### App Walkthough GIF
 
 <img src="./flixter1.gif" width=250><br>
-
-### Notes
-
-I'm having some trouble processing all the information since we are moving so fast and so I am opting out of doing the BONUS content in favor of completing Google Developer's Android Fundamentals CodeLabs to get a better understanding of what's going on. I will circle back around and complete the BONUS content soon for my own satisfaction.
 
 ### Open-source libraries used
 
