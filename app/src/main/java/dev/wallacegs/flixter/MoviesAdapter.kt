@@ -6,9 +6,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import android.widget.Toast
+import androidx.core.os.bundleOf
+import androidx.navigation.Navigation
+import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import kotlinx.android.synthetic.main.movie_item.view.*
+import java.util.*
 
 class MoviesAdapter(val context: Context, val movies: List<Movie>) : RecyclerView.Adapter<MoviesAdapter.ViewHolder>() {
 
@@ -35,6 +40,11 @@ class MoviesAdapter(val context: Context, val movies: List<Movie>) : RecyclerVie
                 itemView.tvOverview.text = movie.getShortOverview()
             }
             Glide.with(context).load(imageUrl).into(itemView.ivPoster)
+            itemView.container.setOnClickListener {
+                val movieDetails = arrayOf<String>(movie.title, movie.overview, movie.rating.toString(), movie.id.toString())
+                val action = MoviesFragmentDirections.actionMoviesFragmentToDetailsActivity(movieDetails)
+                itemView.findNavController().navigate(action)
+            }
         }
 
     }

@@ -1,14 +1,17 @@
 package dev.wallacegs.flixter
 
 import com.google.gson.annotations.SerializedName
+import org.parceler.Parcel
 
-private const val MAX_LEN = 160;
+private const val MAX_LEN = 160
+
 data class MovieSearchResult(
     @SerializedName("results") val movies: List<Movie>
 )
 
 data class Movie(
     val overview: String,
+    val id: Int,
     @SerializedName("original_title") val title: String,
     @SerializedName("poster_path") val posterPath: String,
     @SerializedName("backdrop_path") val backdropPath: String,
@@ -25,3 +28,10 @@ data class Movie(
         return overview
     }
 }
+
+data class VideoSearchResult(
+    @SerializedName("results") val videos: List<Video>
+)
+data class Video(
+    val key: String
+)

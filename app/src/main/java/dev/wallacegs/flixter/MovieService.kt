@@ -10,4 +10,9 @@ interface MovieService {
     fun fillApi(
         @Query("api_key") apiKey: String
     ) : Call<MovieSearchResult>
+
+    @GET("videos")
+    fun fillVidApi(
+        @Query("api_key") apiKey: String
+    ) : Call<VideoSearchResult>
 }
