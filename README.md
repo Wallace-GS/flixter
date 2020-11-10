@@ -6,8 +6,8 @@ Flixter is an app that allows users to browse movies from the [The Movie Databas
 
 ### User Stories
 
-- [x] (8pts) Expose details of movie (ratings using RatingBar, popularity, and synopsis) in a separate activity.
-- [x] (2pts) Allow video posts to be played in full-screen using the YouTubePlayerView.
+- [x] Expose details of movie (ratings using RatingBar, popularity, and synopsis) in a separate activity.
+- [x] Allow video posts to be played in full-screen using the YouTubePlayerView.
 
 ### App Walkthough GIF
 
@@ -23,14 +23,11 @@ Flixter is an app that allows users to browse movies from the [The Movie Databas
 
 ### User Stories
 
-#### REQUIRED (10pts)
-
-- [x] (10pts) User can view a list of movies (title, poster image, and overview) currently playing in theaters from the Movie Database API.
-- [x] (2pts) Views should be responsive for both landscape/portrait mode.
-
-  - [x] (1pt) In portrait mode, the poster image, title, and movie overview is shown.
-  - [x] (1pt) In landscape mode, the rotated alternate layout should use the backdrop image instead and show the title and movie overview to the right of it.
-- [x] (2pts) Improved the user interface by experimenting with styling and coloring.
+- [x] User can view a list of movies (title, poster image, and overview) currently playing in theaters from the Movie Database API.
+- [x] Views should be responsive for both landscape/portrait mode.
+  - [x] In portrait mode, the poster image, title, and movie overview is shown.
+  - [x] In landscape mode, the rotated alternate layout should use the backdrop image instead and show the title and movie overview to the right of it.
+- [x] Improved the user interface by experimenting with styling and coloring.
 
 ### App Walkthough GIF
 
