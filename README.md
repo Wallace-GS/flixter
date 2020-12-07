@@ -12,9 +12,11 @@ Flixter is an app that allows users to browse movies from the [The Movie Databas
 - [x] Allow video posts to be played in full-screen using the YouTubePlayerView.
 
 ## Open-source libraries used
-- [Retrofit](https://square.github.io/retrofit/) - A type-safe HTTP client for Android and Java
+
+- [Retrofit](https://square.github.io/retrofit/) - A type-safe HTTP client for Android, Kotlin and Java
 - [Glide](https://github.com/bumptech/glide) - Image loading and caching library for Android
 - [GSON](https://github.com/google/gson) - Gson is a Java library that can be used to convert Java Objects into their JSON representation
+
 ---
 
 ## Flixter Part 1
@@ -32,6 +34,7 @@ Flixter is an app that allows users to browse movies from the [The Movie Databas
 <img src="./flixter.gif" width=250><br>
 
 ## Open-source libraries used
+
 - [Retrofit](https://square.github.io/retrofit/) - A type-safe HTTP client for Android and Java
 - [Glide](https://github.com/bumptech/glide) - Image loading and caching library for Android
 - [GSON](https://github.com/google/gson) - Gson is a Java library that can be used to convert Java Objects into their JSON representation
